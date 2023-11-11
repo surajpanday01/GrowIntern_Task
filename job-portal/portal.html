@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal My Career Growth</title>
+
+
+    <!------------------- custom style---------------------------->
+    <link rel="stylesheet" href="portal.css">
+
+<!--------------------------------gogleapis.com----------------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-----------------------google fonts link--------------------------------->
+ 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
+
+<!------------------------- font awesome cdn link----------------------------------------->
+
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!------------------swiper js link-------------------->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!----------------navbar------------------------>
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">Job Portal</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimoni">Testimonial</a>
+            <a href="#blog">Blogs</a>
+            <a href="#">Sign In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!----------------header--------------------->
+    <header>
+        <h1 class="header-title">
+            My Dream <br> <span>Job Company Infosys,TCS,Wipro,</span><br>Cognizant,Capgimini,Amazon<br>Suraj<span>Pandey</span>MCA<br>
+         <span> Dr Virendra Swaroop Institute Of Computer Studies </span> </h1>  
+    </header>
+
+    <!---------search------------------>
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job title or keywords">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!--------------filter box--------------->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name ="job-level">
+                <option>Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>Job Function</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employment Tyoe</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Location</option>
+                <option>Remote</option>
+                <option>US</option>
+                <option>UK</option>
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bachelor's degree</option>
+                <option>Master's degree</option>
+            </select>
+       </div>
+
+       <div class="filter-chosen">
+        <div class="chosen-card">
+            Remote <i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+            Full Time<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+          Financial Tech<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="chosen-card">
+            Entry Level<i class="fas fa-times-circle"></i>
+        </div>
+       </div>
+    </div>
+
+    <!----------job--listing---------------->
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/tesla.png">
+              <div class="job-detail">
+               <h4>Tesla</h4> 
+               <h3>Software Engineer</h3>
+               <p>if your job pofile matches and fullfill your criteria then get your dream job.</p>
+              </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JAVASCRIPT</a>
+            </div>
+            <div class="job-posted">
+                Posted 1 min ago
+            </div>
+        </div>
+
+
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/ebay.png">
+              <div class="job-detail">
+               <h4>Ebay</h4> 
+               <h3>Software Developer</h3>
+               <p>if your job pofile matches and fullfill your criteria then get your dream job.</p>
+              </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JAVASCRIPT</a>
+            </div>
+            <div class="job-posted">
+                Posted 8 min ago
+            </div>
+        </div>
+
+
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/tiktok.png">
+              <div class="job-detail">
+               <h4>Tiktok</h4> 
+               <h3>Backened Development</h3>
+               <p>if your job pofile matches and fullfill your criteria then get your dream job.</p>
+              </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">Python</a>
+                <a class="label-b" href="#">SQL</a>
+                <a class="label-c" href="#"> C</a>
+            </div>
+            <div class="job-posted">
+                Posted 20 min ago
+            </div>
+        </div>
+
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/utube.png">
+              <div class="job-detail">
+               <h4>youtube</h4> 
+               <h3>Full Stack Developer</h3>
+               <p>if your job pofile matches and fullfill your criteria then get your dream job.</p>
+              </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">REACT</a>
+                <a class="label-b" href="#">NODE JS</a>
+                <a class="label-c" href="#">EXPRESS JS</a>
+                <a class="label-d" href="#">MONGODB</a>
+            </div>
+            <div class="job-posted">
+                Posted 10 min ago
+            </div>
+        </div>
+
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/amazon.png">
+              <div class="job-detail">
+               <h4>Amazon</h4> 
+               <h3> Google Developer</h3>
+               <p>if your job pofile matches and fullfill your criteria then get your dream job.</p>
+              </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">JAVA</a>
+                <a class="label-b" href="#"> HTML</a>
+                <a class="label-c" href="#">CSS</a>
+                <a class="label-d" href="#">JS</a>
+            </div>
+            <div class="job-posted">
+                Posted 30 min ago
+            </div>
+        </div>
+        <button class="job-more">More List</button>
+    </section>
+
+    <!------------------------------join--------------------------->
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">Lets Start Your New Job With Us.</h1>
+            <p>due to recessions many other MNC company that time is not getting hired any freshers.they 
+                share high  profiles only experience person who have worked with one year.
+            </p>
+        </div>
+        <button class="join-button">Join Now</button>
+    </section>
+
+    <!--------------------featured company------------------------->
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        <p>MNC comapnies is getting hired cream experienced bachelors who can get profit in our company.<br>
+            that time foreign clients is not provided multiple projects in india so that' why companies are 
+            not getting hired freshers.
+            <hr>
+        </p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="images/ebay.png">
+                <p>Ebay</p>
+                <button class="featured-button">View 50 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/utube.png">
+                <p>U-tube</p>
+                <button class="featured-button">View 100 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/tiktok.png">
+                <p>Tiktok</p>
+                <button class="featured-button">View 200 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/tesla.png">
+                <p>Tesla</p>
+                <button class="featured-button">View 20 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/google.png">
+                <p>Google</p>
+                <button class="featured-button">View 1000 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/facebook2.png">
+                <p>Facebook</p>
+                <button class="featured-button">View 2000 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/apple.jpg">
+                <p>Apple</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/amazon.png">
+                <p>Amazon</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+        </div>
+
+ </section>
+
+ <!---------------testimoni--------------------->
+ <section class="testimoni" id="testimoni">
+    <h1 class="section-title">Testimonial</h1>
+    <p>lets see what our bachelor thought about us</p>
+    <div class="swiper mySwiper">
+     <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        <i class="fas fa-quote-left"></i>
+        <h3>job is getting more valuable in all of us because <br>without job is nothing in every life.
+            job is a dream of every middle class bachelor.
+        </h3>
+        <div class="testimoni-pic">
+            <img src="images/poet.jpg">
+            <p>john</p>
+            <span>Full Stack Developer</span>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>job is getting more valuable in all of us because <br>without job is nothing in every life.
+                job is a dream of every middle class bachelor.
+            </h3>
+            <div class="testimoni-pic">
+                <img src="images/poet2.jpg">
+                <p>jim</p>
+                <span>Frontened Developer  </span>
+            </div>
+            </div>
+
+            <div class="swiper-slide">
+                <i class="fas fa-quote-left"></i>
+                <h3>job is getting more valuable in all of us because <br>without job is nothing in every life.
+                    job is a dream of every middle class bachelor.
+                </h3>
+                <div class="testimoni-pic">
+                    <img src="images/poet3.jpg">
+                    <p>Allen</p>
+                    <span> Backened Developer</span>
+                </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>job is getting more valuable in all of us because <br>without job is nothing in every life.
+                        job is a dream of every middle class bachelor.
+                    </h3>
+                    <div class="testimoni-pic">
+                        <img src="images/blog21.jpg">
+                        <p>madam smith</p>
+                        <span>Graphic Designer</span>
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>job is getting more valuable in all of us because <br>without job is nothing in every life.
+                            job is a dream of every middle class bachelor.
+                        </h3>
+                        <div class="testimoni-pic">
+                            <img src="images/blog12.jpg">
+                            <p>Queen Victoria</p>
+                            <span>Web Developer</span>
+                        </div>
+                    </div>
+             </div>
+
+             <div class="swiper-pagination"></div>
+     </div>
+ </section>
+ <!----------------------blog---------------------->
+ <section class="blog" id="blog">
+    <h1 class="section-title">Career Advices</h1>
+    <p>Learn more Career tips from company's recruiter</p>
+    <div class="blog-wrapper">
+        <div class="blog-card">
+            <img class="blog-image" src="images/blog3.jpg">
+            <div class="blog-detail">
+                <span>11 April 2022</span>
+                <h4> How to manage and save your time </h4>
+                <p>work pressure is like a dream  no presurre no success no dream</p>
+                <hr class="divider">
+                <a href="#" class="blog-more">Read more</a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img class="blog-image" src="images/blog4.jpg">
+            <div class="blog-detail">
+                <span>21 November 2023</span>
+                <h4> 10 tips for technical interview</h4>
+                <p>mind pressure is like a dream  no presurre no success no dream</p>
+                <hr class="divider">
+                <a href="#" class="blog-more">Read more</a>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img class="blog-image" src="images/blog6.jpg">
+            <div class="blog-detail">
+                <span>1 December 2023</span>
+                <h4>  job interview preparation </h4>
+                <p> how to find and getting your dream job</p>
+                <hr class="divider">
+                <a href="#" class="blog-more">Read more</a>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-----------------footer--------------------->
+ <footer>
+    <div class="footer-wrapper">
+        <h3>JOB PORTAL</h3>
+        <p>
+            Job is not secure.it ia a develop our career to improve our thoughts and knowledge and behaviour.
+        </p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <h4>Explore</h4>
+        <a href="#">Top Companies</a>
+        <a href="#">Terms Of Services</a>
+        <a href="#">Podcast</a>
+        <a href="#">Careers</a>
+    </div>
+    <div class="footer-wrapper">
+        <h4>About</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Get Inspired</a>
+        <a href="#">Blog</a>
+   </div>
+   <div class="footer-wrapper">
+    <h4>Support</h4>
+    <a href="#">Customer Services</a>
+    <a href="#">Trust & Safety</a>
+    <a href="#">Partenership</a>
+</div>
+<div class="footer-wrapper">
+    <h4>Community</h4>
+    <a href="#">Community</a>
+    <a href="#">Invite a Friend</a>
+    <a href="#">Event</a>
+</div>
+
+ </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <script src="portal.js"></script>
+</body>
+</html>
